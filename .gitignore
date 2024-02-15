@@ -27,3 +27,4 @@ clean-arc-api/target
 clean-arc-application/target
 infrastructure/volumes/mongodb_container/data/diagnostic.data
 infrastructure/volumes/mongodb_container/data/journal
+*.iml
