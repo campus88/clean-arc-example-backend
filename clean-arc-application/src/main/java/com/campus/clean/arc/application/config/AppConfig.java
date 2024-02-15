@@ -131,5 +131,13 @@ public class AppConfig {
                 idGenerator);
     }
 
+    @Bean
+    public ArticleConfig articleConfig(
+            ArticleRepository repository,
+            ArticleIdGenerator idGenerator
+
+    ) {
+        return new ArticleConfig(repository, idGenerator);
+    }
 
 }
