@@ -28,3 +28,10 @@ clean-arc-application/target
 infrastructure/volumes/mongodb_container/data/diagnostic.data
 infrastructure/volumes/mongodb_container/data/journal
 *.iml
+clean-arc-scheduler/target
+clean-arc-mongo/target
+clean-arc-domain/target
+infrastructure/volumes/mongodb_container/data
+.flattened-pom.xml
+log.log.*.tmp
+log.log.*.gz
